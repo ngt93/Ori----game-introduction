@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url(/Characters/img/wallpaperflare.com_wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  margin: 0 auto;
+  width: 80%;
+}
+ul {
+  width: 28%;
+  float: right;
+  margin: 4em auto;
+}
+li {
+  padding: 1em 1em;
+  background-color: rgba(255, 255, 255, 0.164);
+  margin: 1em;
+  border-radius: 15px;
+  backdrop-filter: blur(6px);
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.5rem;
+}
